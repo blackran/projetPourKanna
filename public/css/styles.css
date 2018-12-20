@@ -1,0 +1,89 @@
+body{
+  background: #e2e2e2;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.tit{
+  text-align: center;
+  font-family: waree;
+  padding-top: 70px;
+  font-size: 30px;
+}
+nav{
+  background: rgba(255,255,255,0.1);
+  width: 96%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 0 0 60px;
+  position: fixed;
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+.black{
+  background: #020202;
+}
+#body{
+  padding-top: 100px;
+  width: 96%;
+  margin: auto;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+.Body{
+  background: #e2e2e2;
+}
+.rigth{
+  width: 80%;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  background: white;
+}
+.left{
+  width: 20%;
+  height: 470px;
+  padding: 20px 10px 10px 10px;
+  margin: 10px;
+  border-radius: 10px;
+  background: white;
+}
+div input,label{
+  width: 90%;
+  height: 20px;
+  margin-left: 5%;
+  font-family: Waree;
+}
+div select{
+height: 25px;
+}
+#pays{
+  margin-top: 20px;
+}
+#in{
+  position: relative;
+  top: -8px;
+  margin-left: 35%;
+  font-size: 30px;
+}
+#submit{
+  margin: 20px 30%;
+  padding:3px 30px;
+  border: none;
+  font-size: 20px;
+  border-radius: 3px;
+  background: rgba(0,0,0,0.8);
+  color: #e2e2e2;
+  font-family: Waree;
+}
+.img{
+  width: 300px;
+  height: 300px;
+  box-shadow: 0 0 2px #303030;
+  border-radius: 3px;
+}
+.Img{
+  width: 920px;
+  margin: auto;
+}

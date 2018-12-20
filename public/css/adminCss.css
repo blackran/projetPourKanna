@@ -1,0 +1,96 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Lato;
+  text-decoration: none;
+}
+.header{
+  display: flex;
+  justify-content:space-between;
+  background: #417690;
+  color: #e2e2e2;
+}
+.header div{
+  margin: 20px 30px 0 0;
+}
+.header div a{
+  color: white;
+  border: 1px solid white;
+  padding: 7px;
+  border-radius: 4px;
+  margin-left: 10px;
+}
+.contains{
+  background: #ffffff;
+  padding: 10px;
+  margin: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+.HEAD{
+  background: #85b1c6;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 2px;
+}
+body{
+  background: #e2e2e2;
+}
+h1{
+  background: #417690;
+  color: #e2e2e2;
+  font-size: 26px;
+  padding: 15px 20px;
+}
+h2{
+  background: #79AEc8;
+  color: #e2e2e2;
+  padding: 5px 0;
+  padding-left: 20px;
+  font-size: 18px;
+}
+h2 a{
+  color: #e2e2e2;
+  font-size: 20px;
+}
+a{
+  text-decoration: none;
+}
+#head{
+  background: #42A5F5;
+  padding-top: 15px;
+  border-radius: 5px 5px 0 0;
+  height: 50px;
+  color: #e2e2e2;
+  text-align: center;
+}
+div .content{
+  margin: 10px;
+}
+.block{
+  background: #e2e2e2;
+  margin-left: 50px;
+  width: 50%;
+  padding-bottom: 10px;
+  border: 0px solid #202020;
+  box-shadow: 0 0 3px #42A5F5;
+  border-radius:5px;
+}
+ul{
+  list-style: none;
+  padding: 0 30px 0 30px;
+}
+/* =================|editor|================== */
+span{
+  margin-left: 10px;
+/* ====================|Search|================= */
+form #search{
+  background: red;
+}
+.block{
+  padding-top: 100px;
+}
+#btnSearch{
+  height: 200px;
+}
